@@ -28,7 +28,7 @@ def insert_todo(todo: Todo):
     c.execute("SELECT COUNT(*) FROM todos")
     count = c.fetchone()[0]
 
-    todo.position = count  # next free index
+    todo.position = count  
 
     with conn:
         c.execute("""
@@ -52,19 +52,17 @@ def get_all_todos() -> List[Todo]:
     for row in rows:
         todos.append(Todo(*row))
 
-    return todos   # ✔ outside loop
+    return todos   
 
 
 def delete_todo(position: int):
-    # count todos
     c.execute("SELECT COUNT(*) FROM todos")
     count = c.fetchone()[0]
 
     with conn:
-        # delete the selected todo
+        
         c.execute("DELETE FROM todos WHERE position = :position",   {"position": position})
 
-        # reorder positions
         for pos in range(position + 1, count):
             change_position(pos, pos - 1)
 
