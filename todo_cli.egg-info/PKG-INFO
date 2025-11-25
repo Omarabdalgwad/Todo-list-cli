@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: todo-cli
+Version: 1.0.0
+Summary: A lightweight command-line Todo manager built with Typer and Rich.
+Author-email: Omar <ahlawyomar95@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: rich>=13.0.0

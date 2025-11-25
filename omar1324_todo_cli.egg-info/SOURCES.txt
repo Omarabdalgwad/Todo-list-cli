@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+omar1324_todo_cli.egg-info/PKG-INFO
+omar1324_todo_cli.egg-info/SOURCES.txt
+omar1324_todo_cli.egg-info/dependency_links.txt
+omar1324_todo_cli.egg-info/entry_points.txt
+omar1324_todo_cli.egg-info/requires.txt
+omar1324_todo_cli.egg-info/top_level.txt
+todocli/__init__.py
+todocli/database.py
+todocli/model.py
+todocli/todo.py

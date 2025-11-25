@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+todo_cli.egg-info/PKG-INFO
+todo_cli.egg-info/SOURCES.txt
+todo_cli.egg-info/dependency_links.txt
+todo_cli.egg-info/entry_points.txt
+todo_cli.egg-info/requires.txt
+todo_cli.egg-info/top_level.txt
+todocli/__init__.py
+todocli/database.py
+todocli/model.py
+todocli/todo.py

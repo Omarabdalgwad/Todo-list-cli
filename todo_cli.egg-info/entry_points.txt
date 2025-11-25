@@ -1,0 +1,2 @@
+[console_scripts]
+todo = todocli.todo:app
