@@ -1,87 +1,30 @@
-# Todo CLI
+# 📝 Todo CLI
 
-A lightweight command-line Todo manager built with **Typer** and **Rich**.
+A lightweight and colorful command-line Todo manager built with **Typer** and **Rich**.  
+Simple. Fast. Beautiful.
 
-## Features
+---
 
-- Add, delete, update, complete todos
-- Categorize tasks
-- Colorful table display with Rich
+## 🚀 Features
 
-## PyPI Badge
-[![PyPI](https://img.shields.io/pypi/v/omar1324-todo-cli)](https://pypi.org/project/omar1324-todo-cli/)
+- Add, delete, update, and complete todos  
+- Categorize tasks  
+- Beautiful colored table display  
+- Easy-to-use CLI  
+- Requires Python 3.9+
 
-##How to use it 
-1-install python >=3.9 https://www.python.org/downloads/
-2- open your terminal and run this 
-[![Install via pip](https://img.shields.io/badge/pip-install-brightgreen)](https://pypi.org/project/omar1324-todo-cli/)
+---
+
+## 📦 Install
+
+Install Python 3.9 or above:  
+https://www.python.org/downloads/
+
+Install the package:
+
 ```bash
 pip install omar1324-todo-cli
-3- after install it should be like this 
-```bash
-Successfully installed omar1324-todo-cli-1.1.2
 
-## commands :
-##1- (show) : display your todo-list table
-```bash
-todo show
-##2- (add)
-```bash
-todo add "name of your task" "category"
-
-for category ther is 4 coloured category :
--sports -> will display with green coulour
--youtube -> will be displayed with red colour
--learn -> will be displayed with blue colour
-- study -> will be displayed with purple colour
-- anything else will displayed with white colour
-
-Example 1
-```bash
-todo add "task1" "sports"
-![Screenshot](https://raw.githubusercontent.com/Omarabdalgwad/Todo-list-cli/main/assets/Screenshot%202025-11-25%20151858.png)
-Example 2
-```bash
-todo add "task2" "youtube"
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20151940.png)
-Example 3
-```bash
-todo add "task3" "learn"
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20152107.png)
-Example 4
-```bash
-todo add "task4" "study"
-![Screenshot](![Screenshot](https://raw.githubusercontent.com/Omarabdalgwad/Todo-list-cli/main/assets/Screenshot%202025-11-25%20151858.png))
-Example 5
-```bash
-todo add "task5" "else"
-![Screenshot](![Screenshot](https://raw.githubusercontent.com/Omarabdalgwad/Todo-list-cli/main/assets/Screenshot%202025-11-25%20151858.png))
-##3- (complete)
-to insure that you have done this task
-EXAMPLE 1
-```bash
-todo complete 1
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20152504.png)
-Example 2
-```bash
-todo complete 2
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20152531.png)
-Example 3
-```bash
-todo complete 3
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20152553.png)
-Example 4
-```bash
-todo complete 4
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20152615.png)
-Example 5
-```bash
-todo complete 5
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20152658.png)
-##4-(delete)
-```bash
-todo delete 1
-![Screenshot](https://github.com/Omarabdalgwad/Todo-list-cli/blob/main/assets/Screenshot%202025-11-25%20152720.png)
 
 
 
